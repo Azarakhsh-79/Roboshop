@@ -1,0 +1,15 @@
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/mpdf/
+/storage/app/private/livewire-tmp/
+/storage/app/public/invoices/
+/storage/app/public/product-images/
+/storage/logs/*.log
+.env
+.env.backup
+.vscode/
+database/database.sqlite
+*.zip

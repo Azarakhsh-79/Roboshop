@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ☀️ رنگ‌ها برای حالت روشن (مثلاً یک آبی ملایم) */
+:root {
+    --color-primary: 59, 130, 246; /* معادل #3b82f6 */
+}
+
+/* 🌙 رنگ‌ها برای حالت تاریک (مثلاً یک زرد یا نارنجی شب‌تاب) */
+.dark {
+    --color-primary: 245, 158, 11; /* معادل #f59e0b */
+}
