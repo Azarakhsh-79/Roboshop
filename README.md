@@ -1,59 +1,65 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+cat << 'EOF' > README.md
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# 🤖 RoboShop (روبوشاپ)
 
-## About Laravel
+**پلتفرم SaaS فروشگاه‌ساز تلگرام، مینی‌اپ اختصاصی و دستیار فروش هوشمند**
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+[![Filament](https://img.shields.io/badge/Filament-3.x-FDAE4B?style=for-the-badge&logo=laravel&logoColor=white)](https://filamentphp.com)
+[![Telegram Bot](https://img.shields.io/badge/Telegram-Bot%20%26%20Mini%20App-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://core.telegram.org/bots/webapps)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+🌐 **وب‌سایت:** [roboshopapp.ir](https://roboshopapp.ir) | 🤖 **ربات سازنده:** [@RoboMaker_bot](https://t.me/RoboMaker_bot) | 👨‍💻 **توسعه‌دهنده:** [Azarakhshdev](https://azarakhshdev.ir)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+</div>
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## 📖 درباره پروژه
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+**RoboShop** یک پلتفرم ابری چندمستاجری (Multi-Tenant SaaS) مبتنی بر Laravel است که به کسب‌وکارها امکان می‌دهد بدون نیاز به دانش برنامه‌نویسی، ربات فروشگاهی تلگرام و **مینی‌اپ (Telegram Mini App)** اختصاصی خود را راه‌اندازی کنند. هر فروشگاه به‌صورت ایزوله با توکن ربات، درگاه پرداخت، پنل مدیریت و دستیار فروش هوشمند خود عمل می‌کند.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## ✨ امکانات و قابلیت‌های کلیدی
 
-### Premium Partners
+### 🏪 معماری چندمستاجری و مدیریت ربات‌ها
+- **ساخت خودکار فروشگاه از طریق ربات مادر (`Admin Bot`):** ثبت توکن، تنظیم وب‌هوک اختصاصی با امنیت `Secret Token` و راه‌اندازی آنی فروشگاه.
+- **دو پنل مجزای Filament:**
+  - **پنل مدیریت فروشگاه (`/admin`):** مدیریت محصولات، دسته‌بندی‌ها، تنوع کالا (Variants)، کدهای تخفیف، سفارش‌ها، تیکت‌های پشتیبانی، ارسال پیام همگانی (Broadcast) و گزارش‌های مالی پیشرفته.
+  - **پنل سوپرادمین (`/superadmin`):** مدیریت کل فروشگاه‌های ثبت‌شده (`ManagedBots`)، پلن‌های اشتراک (`Plans`)، پرداخت‌های اشتراک و مانیتورینگ وضعیت کل پلتفرم.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### 📱 مینی‌اپ فروشگاهی تلگرام (Telegram Mini App)
+- رابط کاربری مدرن و واکنش‌گرا با تم تیره (Dark Mode)، طراحی‌شده با **Tailwind CSS** و **Alpine.js**.
+- احراز هویت امن مبتنی بر سشن و داده‌های تلگرام (`EnsureShopSessionExists`).
+- اسلایدر تخفیف‌های ویژه، جستجوی لحظه‌ای، فیلتر دسته‌بندی‌ها، سبد خرید پویا و پروفایل کاربری.
 
-## Contributing
+### 🧠 دستیار فروش هوشمند (AI Sales Agent)
+- معماری ماژولار در لایه `app/AI` با پشتیبانی از چند ارائه‌دهنده (`OpenAiCompatibleProvider`، `PollinationsFreeProvider`، `DuckDuckGoProvider`).
+- پردازش غیرهمگام پاسخ‌ها از طریق صف (`RunShopAiAgentJob`) برای پاسخگویی سریع و بدون وقفه به مشتریان فروشگاه.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 💳 مالی، حسابداری و صدور فاکتور
+- محاسبه خودکار سود و فروش، گزارش‌های تحلیلی (`SalesAnalyticsService`) و نمودارهای زنده در داشبورد.
+- صدور خودکار فاکتور PDF فارسی با پشتیبانی کامل از فونت‌ها و تقویم شمسی (`laravel-mpdf` و `filament-jalali`).
+- کیف پول کاربران، ثبت تراکنش‌ها و مدیریت وضعیت سفارش‌ها.
 
-## Code of Conduct
+### ⚙️ اتوماسیون و زمان‌بندی (Cron & Queues)
+- یادآوری خودکار سبدهای خرید رهاشده (`AbandonedCartReminder`).
+- لغو خودکار فاکتورهای منقضی‌شده و بازگرداندن موجودی انبار (`CancelExpiredInvoices`).
+- بررسی روزانه اشتراک فروشگاه‌ها (`CheckSubscriptions`)، انقضای کدهای تخفیف و ارسال گزارش عملکرد روزانه فروشگاه‌ها.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 🏗️ ساختار کلی پروژه
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```text
+app/
+├── AI/               # هسته هوش مصنوعی (Agents, Providers, Contracts, DTOs)
+├── Bot/              # منطق پردازش پیام‌های ربات مادر (Admin) و ربات‌های فروشگاهی (Shop)
+├── Console/Commands/ # کران‌جاب‌ها و دستورات زمان‌بندی‌شده (یادآوری سبد، بررسی اشتراک و...)
+├── Filament/         # پنل‌های مدیریت فروشگاه (Admin) و مدیریت کل پلتفرم (Superadmin)
+├── Http/             # کنترلرها، میدلورهای امنیتی وب‌هوک و اندپوینت‌های مینی‌اپ
+├── Jobs/             # پردازش‌های پس‌زمینه (ارسال همگانی، تخفیف گروهی، پردازش تصویر، AI)
+├── Models/           # مدل‌های Eloquent و روابط چندمستاجری
+└── Services/         # سرویس‌های تحلیل فروش، پیامک، پایش عملکرد و همگام‌سازی تلگرام
