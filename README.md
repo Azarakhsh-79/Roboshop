@@ -1,4 +1,4 @@
-cat << 'EOF' > README.md
+
 <div align="center">
 
 # 🤖 RoboShop (روبوشاپ)
@@ -10,7 +10,7 @@ cat << 'EOF' > README.md
 [![Filament](https://img.shields.io/badge/Filament-3.x-FDAE4B?style=for-the-badge&logo=laravel&logoColor=white)](https://filamentphp.com)
 [![Telegram Bot](https://img.shields.io/badge/Telegram-Bot%20%26%20Mini%20App-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://core.telegram.org/bots/webapps)
 
-🌐 **وب‌سایت:** [roboshopapp.ir](https://roboshopapp.ir) | 🤖 **ربات سازنده:** [@RoboMaker_bot](https://t.me/RoboMaker_bot) | 👨‍💻 **توسعه‌دهنده:** [Azarakhshdev](https://azarakhshdev.ir)
+🌐 **وب‌سایت:** [roboshopapp.ir](https://roboshopapp.ir) | 🤖 **ربات سازنده:** [@RoboShop_fatherbot](https://t.me/RoboShop_fatherbot) | 👨‍💻 **توسعه‌دهنده:** [@Amir_soleimani_79](https://t.me/Amir_soleimani_79)
 
 </div>
 
